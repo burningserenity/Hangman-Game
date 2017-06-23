@@ -1,7 +1,69 @@
 body
 {
-  background-image: url(assets/images/ufo.jpg);
+  background-image: url("../images/ufo.jpeg");
   background-repeat: repeat;
   padding: 0;
   margin: 0;
+}
+
+h1
+{
+  background-color: #3D7078;
+  text-align: center;
+  color: #ffffff;
+  height: 28px;
+  line-height: 25px;
+}
+
+h2
+{
+  background-color: transparent;
+  color: #ffffff;
+  text-align: center;
+  line-height: 51px;
+  height: 10px;
+  margin-left: -63px;
+}
+
+#wins
+{
+  background-color: transparent;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 493px 0 416px;
+}
+
+#image
+{
+  margin-left: 655px;
+  margin-top: 52px;
+  border: 2px solid #ffffff;
+  position: relative;
+  left: -606px;
+}
+
+#gamedisplay
+{
+  background-color: #3D7078;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+  position: relative;
+  left: 179px;
+  top: -265px;
+}
+
+#yourWordIs
+{
+  line-height: 34px;
+  height: 24px;
+}
+
+#guessedLetters
+{
+  line-height: 0px;
+  height: 7px;
+  margin-bottom: 24px;
 }
